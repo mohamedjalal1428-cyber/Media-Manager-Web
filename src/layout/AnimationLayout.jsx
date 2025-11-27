@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import './AdminLayout.css';
-import Sidebar from '../components/sidebar';
+import Sidebar from '../components/Sidebar';
 
 const AdminLayout = () => {
   const [collapsed, setCollapsed] = useState(false);
