@@ -1,0 +1,20 @@
+.admin-root {
+    display: flex;
+    min-height: 100vh;
+}
+
+.admin-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.admin-header {
+    padding: 5px;
+    border-bottom: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+.admin-page {
+    padding: 16px;
+}

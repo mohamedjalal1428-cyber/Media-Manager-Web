@@ -1,0 +1,39 @@
+.users-root {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 1px 3px rgba(15, 23, 42, 0.08);
+}
+
+.users-root h2 {
+    margin: 0 0 12px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+}
+
+.users-table thead {
+    background: #f3f4f6;
+}
+
+.users-table th,
+.users-table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: left;
+}
+
+.users-table th {
+    font-weight: 600;
+    color: #4b5563;
+}
+
+.users-table tbody tr:hover {
+    background: #f9fafb;
+}
